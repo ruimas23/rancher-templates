@@ -1,5 +1,5 @@
 name: Jenkins-R
 description: |
   Jenkins CI server (LTS) RUIMAS
-version: 1\2.32.2-rancher
+version: 2.32.2-rancher
 category: Continuous Integration

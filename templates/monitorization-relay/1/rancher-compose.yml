@@ -1,0 +1,21 @@
+.catalog:
+  name: "Monitorization-Relay"
+  version: "1.0.1"
+  description: "Prometheus Monitoring Solution"
+  uuid: prometheus-relay
+  minimum_rancher_version: v1.1.99
+  questions:
+
+node-exporter:
+  upgrade_strategy:
+    start_first: true
+
+prometheus:
+  scale: 1
+  health_check:
+    port: 9090
+    interval: 5000
+    unhealthy_threshold: 3
+    request_line: ''
+    healthy_threshold: 2
+    response_timeout: 5000

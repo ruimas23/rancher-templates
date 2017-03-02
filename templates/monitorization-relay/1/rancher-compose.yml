@@ -1,6 +1,6 @@
 .catalog:
   name: "Monitorization-Relay"
-  version: "1.0.1"
+  version: "1.0.2"
   description: "Prometheus Monitoring Solution"
   uuid: prometheus-relay
   minimum_rancher_version: v1.1.99
